@@ -4000,7 +4000,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ffc800;
+  background-color: #ffc8dd;
 }
 
 .nav-fill > .nav-link,
@@ -4710,6 +4710,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
 .accordion-button:hover {
   z-index: 2;
 }
