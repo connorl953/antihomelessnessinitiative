@@ -5989,6 +5989,7 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
+  margin:0;
 }
 
 .carousel.pointer-event {
@@ -11374,7 +11375,15 @@ p {
   background-color: #dee2e6;
 }
 
+.card{
+  transition: transform .25s;
+}
 
+.card:hover {
+  transform: scale(1.05);
+  position:relative;
+  cursor:pointer;
+}
 
 #about {
   background-color: #dee2e6;
@@ -11505,17 +11514,19 @@ header.masthead .masthead-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  position: relative;
+  display: table;
+  max-width: 50vw;
+  max-height: 50vh;
 }
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
